@@ -25,7 +25,7 @@ namespace mysqlMinhaSaude
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionString = "server=us-cdbr-east-04.cleardb.com;user=bb3bd2b935de69;password=fb7aa1ef;database=heroku_fb1e780812f7b81";
+            var connectionString = "server=;user=;password=;database=";
 
             // Replace with your server version and type.
             // Use 'MariaDbServerVersion' for MariaDB.
